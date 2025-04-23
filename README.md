@@ -19,7 +19,7 @@ You can view a live demo of the app [https://6809487cfb8af837e5da6598--celadon-m
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/todo-app.git
+  https://github.com/DhanashriYeole/advanced-to-do-list-application.git
    
 2. Open index.html in your browser to run the app.
 
