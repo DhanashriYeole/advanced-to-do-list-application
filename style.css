@@ -1,17 +1,17 @@
 :root {
-    --bg: #fff;
+    --bg: #c7c5c5;
     --text: #000;
-    --card: #f1f1f1;
-    --border: #ccc;
-    --accent: #007bff;
+    --card: #ebe9e9;
+    --border: #ebe9e9;
+    --accent: #70a2d8;
   }
   
   body.dark {
     --bg: #1e1e1e;
-    --text: #eee;
+    --text: #e0dada;
     --card: #2e2e2e;
     --border: #444;
-    --accent: #66b2ff;
+    --accent: #bac5d0;
   }
   
   * {
@@ -28,6 +28,13 @@
     display: flex;
     justify-content: center;
     transition: background 0.3s, color 0.3s;
+
+
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
   }
   
   .container {
@@ -36,7 +43,13 @@
     border-radius: 10px;
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
     width: 100%;
-    max-width: 600px;
+    max-width: auto;
+
+    flex: 1;
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: start;       /* Aligns to top */
+    padding: 40px 0;
   }
   
   h1 {
@@ -60,17 +73,19 @@
     min-width: 120px;
   }
   
+
+
   #addBtn {
     padding: 8px 12px;
     border: none;
-    background: var(--accent);
+    background:  #648df4;
     color: white;
     border-radius: 6px;
     cursor: pointer;
   }
   
   #addBtn:hover {
-    background: #0056b3;
+    background: hsl(210, 78%, 21%);
   }
   
   .controls {
@@ -104,11 +119,17 @@
   
   #toggleTheme {
     background: none;
+    color: #f1f4f7;
+    background-color: #648df4;
     border: 1px solid var(--border);
     padding: 6px 12px;
     border-radius: 6px;
     cursor: pointer;
   }
+  #toggleTheme:hover {
+    background: hsl(210, 78%, 21%);
+  }
+  
   
   ul#taskList {
     list-style: none;
@@ -156,13 +177,17 @@
     border: none;
     background: none;
     cursor: pointer;
-    color: #888;
+    color: #524f4f;
   }
   
   .actions button:hover {
     color: red;
   }
+  
 
+
+
+  
 html, body {
   height: 100%;
   margin: 0;
@@ -171,21 +196,21 @@ html, body {
 }
 
 .container {
-  flex: 1; /* fills remaining space, pushes footer down */
+  flex: 1; 
   padding: 20px;
 }
 
 .footer {
   text-align: center;
   padding: 15px 10px;
-  background-color: #222;
-  color: #ddd;
+  background-color: #d9d5d5;
+  color: #292626;
   font-size: 14px;
   border-top: 1px solid #444;
 }
 
 .footer a {
-  color: #00bcd4;
+  color: #095d68;
   text-decoration: none;
   margin: 0 5px;
 }
@@ -193,5 +218,3 @@ html, body {
 .footer a:hover {
   text-decoration: underline;
 }
-
-  
