@@ -162,4 +162,15 @@
   .actions button:hover {
     color: red;
   }
+
+footer {
+  text-align: center;
+  padding: 10px;
+  margin-top: 30px;
+  background-color: #f1f1f1;
+  font-size: 14px;
+  color: #555;
+  border-top: 1px solid #ccc;
+}
+
   
