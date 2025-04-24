@@ -13,7 +13,7 @@ A fully-featured To-Do List web app built with **HTML**, **CSS**, and **JavaScri
 
 ## Demo
 
-You can view a live demo of the app [https://6809487cfb8af837e5da6598--celadon-mermaid-c1ddcb.netlify.app/]
+You can view a live demo of the app  https://advanced-to-do-lst.netlify.app/
 
 ## Installation
 
