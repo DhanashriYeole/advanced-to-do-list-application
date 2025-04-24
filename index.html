@@ -8,35 +8,40 @@
 </head>
 <body>
   <div class="container">
-    <h1>📝 My To-Do List</h1>
+    <div class="todo-app">
+      <!-- Your whole to-do list app goes here -->
+      <h1>📝 My To-Do List</h1>
 
-    <div class="top-bar">
-      <input type="text" id="taskInput" placeholder="Enter task" />
-      <input type="date" id="dueDateInput" />
-      <select id="categoryInput">
-        <option value="">Category</option>
-        <option value="Work">Work</option>
-        <option value="Personal">Personal</option>
-        <option value="Study">Study</option>
-      </select>
-      <button id="addBtn">Add</button>
-    </div>
-
-    <div class="controls">
-      <input type="text" id="searchInput" placeholder="Search tasks..." />
-      <div class="filters">
-        <button onclick="filterTasks('all')">All</button>
-        <button onclick="filterTasks('completed')">Completed</button>
-        <button onclick="filterTasks('pending')">Pending</button>
+      <div class="top-bar">
+        <input type="text" id="taskInput" placeholder="Enter task" />
+        <input type="date" id="dueDateInput" />
+        <select id="categoryInput">
+          <option value="">Category</option>
+          <option value="Work">Work</option>
+          <option value="Personal">Personal</option>
+          <option value="Study">Study</option>
+        </select>
+        <button id="addBtn">Add</button>
       </div>
-      <button id="toggleTheme">🌙 Dark Mode</button>
+  
+      <div class="controls">
+        <input type="text" id="searchInput" placeholder="Search tasks..." />
+        <div class="filters">
+          <button onclick="filterTasks('all')">All</button>
+          <button onclick="filterTasks('completed')">Completed</button>
+          <button onclick="filterTasks('pending')">Pending</button>
+        </div>
+        <button id="toggleTheme">🌙 Dark Mode</button>
+      </div>
+  
+      <ul id="taskList"></ul>
     </div>
 
-    <ul id="taskList"></ul>
-  </div>
+    </div>
+    
 
   <footer class="footer">
-    <p>Made by <strong>SHREE</strong></p>
+    <p>@2025 Made by <strong>SHREE</strong></p>
     <p>
       <a href="https://github.com/DhanashriYeole" target="_blank">GitHub</a> |
       <a href="https://www.linkedin.com/in/dhanashriyeole/" target="_blank">LinkedIn</a>
